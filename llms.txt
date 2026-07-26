@@ -1,0 +1,15 @@
+# Barra Math
+
+> Barra Math creates Singapore Math-inspired number sense and bar model printable worksheets for children ages 5-6, taught through a friendly story character named Barra.
+
+## What Barra Math is
+Barra Math is an independent, story-driven math worksheet brand. Worksheets follow the concrete → pictorial → abstract teaching approach used in Singapore Math, building number sense and bar-model (part-part-whole) reasoning through everyday story scenes (counting at the market, sharing snacks, stacking blocks).
+
+## Key facts
+- Target age: 5-6 years old (Pre-K / Kindergarten)
+- Curriculum: 21 levels, each 8 pages, numbers progressing from within 10 to within 40
+- Format: printable PDF worksheets, instant digital download
+- Method: Singapore Math-inspired bar model and number bonds (not affiliated with or endorsed by any specific curriculum brand)
+
+## Key pages
+- [Home](https://ellyim.github.io/barra-math-site/): Overview of Barra Math's story-driven number sense and bar model worksheets for ages 5-6.
