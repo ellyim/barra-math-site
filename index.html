@@ -119,8 +119,16 @@
   .levels .num{font-size:56px; font-family:'Fredoka',sans-serif; font-weight:700;}
   .levels p{max-width:520px; margin:10px auto 0; opacity:0.95;}
 
+  .level-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(90px, 1fr)); gap:14px; max-width:900px; margin:0 auto;}
+  .level-card{display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--bg); border-radius:14px; padding:16px 8px; text-decoration:none; transition:transform .1s;}
+  .level-card:hover{transform:translateY(-3px);}
+  .level-card .lv{font-family:'Fredoka',sans-serif; font-weight:700; font-size:26px; color:var(--blue);}
+  .level-card .rng{font-size:12px; color:#888; margin-top:4px;}
+
   footer{text-align:center; padding:40px 24px; color:#999; font-size:14px; background:#fafafa;}
   footer .brand{justify-content:center; color:#999; font-size:15px;}
+  footer .contact{margin-top:8px;}
+  footer .contact a{color:var(--blue); text-decoration:none; font-weight:700;}
 </style>
 </head>
 <body>
@@ -130,7 +138,7 @@
   <nav>
     <a href="#how">How it Works</a>
     <a href="#meet">Meet Barra</a>
-    <a href="#shop">Shop</a>
+    <a href="#shop">Free Worksheets</a>
   </nav>
 </header>
 
@@ -139,9 +147,9 @@
   <p class="sub">Story-driven number sense &amp; bar model worksheets for ages 5&ndash;6, inspired by the visual thinking behind Singapore Math.</p>
   <img class="portrait" src="assets/barra_portrait.png" alt="Barra the math mascot">
   <div>
-    <a class="cta" href="#shop">See Sample Worksheets</a>
+    <a class="cta" href="#shop">Download Free Worksheets</a>
   </div>
-  <div class="badge-soon">🛍️ Shop opening soon on Etsy</div>
+  <div class="badge-soon">💛 100% free right now — no signup needed</div>
 </section>
 
 <section id="how">
@@ -178,20 +186,44 @@
 
 <section id="shop">
   <h2>21 Levels, One Growing Skill</h2>
-  <p class="lead">Every level keeps the same story and structure &mdash; only the numbers grow, from counting within 10 up to bar models within 40.</p>
+  <p class="lead">Every level keeps the same story and structure &mdash; only the numbers grow, from counting within 10 up to bar models within 40. All 21 levels are free to download right now.</p>
   <div class="preview">
     <img src="assets/sample_worksheet.png" alt="Sample Barra Math worksheet page">
     <div class="text">
       <h3 style="color:#333;">Sample: Counting at the Market</h3>
       <p style="color:#666;">Each level includes 8 pages &mdash; counting, comparison, number bonds, sharing, and a full bar model addition &amp; subtraction introduction.</p>
-      <a class="cta" href="#" style="margin-top:10px;">Get Level 1 Free (soon)</a>
+      <a class="cta" href="downloads/Barra_Level01_NumberSense_Worksheets.pdf" style="margin-top:10px;">Download Level 1 (Free)</a>
     </div>
   </div>
-  <div style="height:40px;"></div>
+  <div style="height:50px;"></div>
   <div class="levels">
     <div class="num">21</div>
     <h2>Levels from Numbers within 10 to 40</h2>
     <p>Start where your child is, and grow one level at a time &mdash; no need to buy a whole workbook they'll outgrow in a week.</p>
+  </div>
+  <div style="height:50px;"></div>
+  <div class="level-grid">
+    <a class="level-card" href="downloads/Barra_Level01_NumberSense_Worksheets.pdf"><span class="lv">1</span><span class="rng">within 10</span></a>
+    <a class="level-card" href="downloads/Barra_Level02_NumberSense_Worksheets.pdf"><span class="lv">2</span><span class="rng">within 10</span></a>
+    <a class="level-card" href="downloads/Barra_Level03_NumberSense_Worksheets.pdf"><span class="lv">3</span><span class="rng">within 12</span></a>
+    <a class="level-card" href="downloads/Barra_Level04_NumberSense_Worksheets.pdf"><span class="lv">4</span><span class="rng">within 13</span></a>
+    <a class="level-card" href="downloads/Barra_Level05_NumberSense_Worksheets.pdf"><span class="lv">5</span><span class="rng">within 15</span></a>
+    <a class="level-card" href="downloads/Barra_Level06_NumberSense_Worksheets.pdf"><span class="lv">6</span><span class="rng">within 16</span></a>
+    <a class="level-card" href="downloads/Barra_Level07_NumberSense_Worksheets.pdf"><span class="lv">7</span><span class="rng">within 18</span></a>
+    <a class="level-card" href="downloads/Barra_Level08_NumberSense_Worksheets.pdf"><span class="lv">8</span><span class="rng">within 20</span></a>
+    <a class="level-card" href="downloads/Barra_Level09_NumberSense_Worksheets.pdf"><span class="lv">9</span><span class="rng">within 21</span></a>
+    <a class="level-card" href="downloads/Barra_Level10_NumberSense_Worksheets.pdf"><span class="lv">10</span><span class="rng">within 23</span></a>
+    <a class="level-card" href="downloads/Barra_Level11_NumberSense_Worksheets.pdf"><span class="lv">11</span><span class="rng">within 24</span></a>
+    <a class="level-card" href="downloads/Barra_Level12_NumberSense_Worksheets.pdf"><span class="lv">12</span><span class="rng">within 26</span></a>
+    <a class="level-card" href="downloads/Barra_Level13_NumberSense_Worksheets.pdf"><span class="lv">13</span><span class="rng">within 28</span></a>
+    <a class="level-card" href="downloads/Barra_Level14_NumberSense_Worksheets.pdf"><span class="lv">14</span><span class="rng">within 29</span></a>
+    <a class="level-card" href="downloads/Barra_Level15_NumberSense_Worksheets.pdf"><span class="lv">15</span><span class="rng">within 31</span></a>
+    <a class="level-card" href="downloads/Barra_Level16_NumberSense_Worksheets.pdf"><span class="lv">16</span><span class="rng">within 32</span></a>
+    <a class="level-card" href="downloads/Barra_Level17_NumberSense_Worksheets.pdf"><span class="lv">17</span><span class="rng">within 34</span></a>
+    <a class="level-card" href="downloads/Barra_Level18_NumberSense_Worksheets.pdf"><span class="lv">18</span><span class="rng">within 36</span></a>
+    <a class="level-card" href="downloads/Barra_Level19_NumberSense_Worksheets.pdf"><span class="lv">19</span><span class="rng">within 37</span></a>
+    <a class="level-card" href="downloads/Barra_Level20_NumberSense_Worksheets.pdf"><span class="lv">20</span><span class="rng">within 39</span></a>
+    <a class="level-card" href="downloads/Barra_Level21_NumberSense_Worksheets.pdf"><span class="lv">21</span><span class="rng">within 40</span></a>
   </div>
 </section>
 
@@ -220,6 +252,7 @@
 <footer>
   <div class="brand">Barra Math</div>
   <p>&copy; 2026 Barra Math</p>
+  <p class="contact">Questions or feedback? DM us on Instagram <a href="https://instagram.com/barramath" target="_blank" rel="noopener">@barramath</a></p>
 </footer>
 
 </body>
