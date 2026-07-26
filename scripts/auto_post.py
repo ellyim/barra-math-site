@@ -7,8 +7,11 @@ import json, os, subprocess, sys, time
 from pathlib import Path
 
 STATE_FILE = Path(__file__).parent / "post_state.json"
-BASE = "https://barramath.com/assets"
-SITE = "https://barramath.com/"
+# NOTE: barramath.com custom domain HTTPS cert is still provisioning on GitHub Pages
+# (https_enforced=false as of 2026-07-26). Using the github.io URL for images/link
+# until the cert is live, so posts don't fail cert validation. Switch back once ready.
+BASE = "https://ellyim.github.io/barra-math-site/assets"
+SITE = "https://ellyim.github.io/barra-math-site/"
 
 IG_ACCOUNT_ID = "6a66530b542d8bc5a60d8493"
 PIN_ACCOUNT_ID = "6a665234542d8bc5a60d7b5f"
