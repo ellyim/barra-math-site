@@ -28,4 +28,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://ellyim.github.io/barra-math-site/sitemap.xml
+Sitemap: https://barramath.com/sitemap.xml

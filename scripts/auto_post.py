@@ -7,8 +7,8 @@ import json, os, subprocess, sys, time
 from pathlib import Path
 
 STATE_FILE = Path(__file__).parent / "post_state.json"
-BASE = "https://ellyim.github.io/barra-math-site/assets"
-SITE = "https://ellyim.github.io/barra-math-site/"
+BASE = "https://barramath.com/assets"
+SITE = "https://barramath.com/"
 
 IG_ACCOUNT_ID = "6a66530b542d8bc5a60d8493"
 PIN_ACCOUNT_ID = "6a665234542d8bc5a60d7b5f"
@@ -21,19 +21,22 @@ def level_caption(n, rng):
             f"All 21 levels are free right now, link in bio. \U0001F9EE\n"
             f"#preschoolmath #numbersense #kindergartenmath #barmodel #homeschoolmath")
 
-QUEUE = []
+QUEUE = [{
+    "image": f"{BASE}/promo/level-01_promo.png",
+    "caption": level_caption(1, 10),
+}]
 for lv, rng in LEVEL_RANGES.items():
     QUEUE.append({
-        "image": f"{BASE}/levels/level-{lv:02d}_cover.png",
+        "image": f"{BASE}/promo/level-{lv:02d}_promo.png",
         "caption": level_caption(lv, rng),
     })
 
 QUEUE += [
-    {"image": f"{BASE}/packs/shapes_cover.png",
+    {"image": f"{BASE}/promo/shapes_promo.png",
      "caption": "New free pack: Shapes with Barra! Recognize, count & sort shapes — ages 5-6. Link in bio. \U0001F53A⚪️\U0001F7E9\n#preschoolmath #shapes #kindergarten #homeschool"},
-    {"image": f"{BASE}/packs/time_cover.png",
+    {"image": f"{BASE}/promo/time_promo.png",
      "caption": "New free pack: Time & Days with Barra! Telling time, days of the week, and fun time word problems. Link in bio. \U0001F550\n#preschoolmath #tellingtime #kindergarten #homeschool"},
-    {"image": f"{BASE}/packs/patterns_cover.png",
+    {"image": f"{BASE}/promo/patterns_promo.png",
      "caption": "New free pack: Patterns with Barra! AB & ABC repeating patterns — ages 5-6. Link in bio. \U0001F534\U0001F7E1\U0001F534\U0001F7E1\n#preschoolmath #patterns #kindergarten #homeschool"},
 ]
 

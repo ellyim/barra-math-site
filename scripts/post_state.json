@@ -1,8 +1,8 @@
 {
-  "index": 1,
+  "index": 0,
   "history": [
-    {"image": "manual-test", "note": "IG+Pinterest carousel card 1 test post"},
-    {"image": "manual-test", "note": "Pinterest sample_worksheet test post"},
-    {"image": "https://ellyim.github.io/barra-math-site/assets/levels/level-02_cover.png", "note": "local script test run"}
+    {"image": "manual-test", "note": "IG+Pinterest carousel card 1 test post (wrong handle, deleted)"},
+    {"image": "manual-test", "note": "IG carousel card 1 corrected + Pinterest sample_worksheet test"},
+    {"image": "https://ellyim.github.io/barra-math-site/assets/levels/level-02_cover.png", "note": "local script test run, low-quality cover screenshot (superseded by promo cards)"}
   ]
 }

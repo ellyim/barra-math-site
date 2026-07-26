@@ -12,4 +12,4 @@ Barra Math is an independent, story-driven math worksheet brand. Worksheets foll
 - Method: Singapore Math-inspired bar model and number bonds (not affiliated with or endorsed by any specific curriculum brand)
 
 ## Key pages
-- [Home](https://ellyim.github.io/barra-math-site/): Overview of Barra Math's story-driven number sense and bar model worksheets for ages 5-6.
+- [Home](https://barramath.com/): Overview of Barra Math's story-driven number sense and bar model worksheets for ages 5-6.
